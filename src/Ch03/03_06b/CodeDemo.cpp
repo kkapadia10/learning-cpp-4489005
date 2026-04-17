@@ -6,6 +6,16 @@
 #include <string>
 
 int main(){
+    int a = 37;
+    int *ptr;
+
+    ptr = &a;
+
+    std::cout << "a content " << a << std::endl;
+    std::cout << "ptr is pointing to address " << ptr << std::endl;
+    std::cout << "a address " << &a << std::endl;
+    std::cout << "Where ptr is pointing, we have " << *ptr << std::endl;
+    std::cout << "ptr address " << &ptr << std::endl;
 
     std::cout << std::endl << std::endl;
     return (0);
